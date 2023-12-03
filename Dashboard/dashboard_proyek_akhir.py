@@ -117,7 +117,7 @@ min_date = day_dashboard_df["dateday"].min()
 max_date = day_dashboard_df["dateday"].max()
 
 with st.sidebar:
-    st.image("https://drive.google.com/file/d/1TL1TDU2Z7tcxFbds6Mh38QejZ6DpOVja/view")
+    st.image("https://github.com/septharaadhityo/Dicoding-Bike-Sharing/blob/main/images.png")
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
